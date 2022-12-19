@@ -116,6 +116,23 @@ function loadRNBOScript(version) {
     });
 }
 
+function makeButton(device) {
+    let pdiv = document.getElementById("rnbo-parameter-button");
+    let noParamLabel = document.getElementById("no-param-label");
+    if (noParamLabel && device.numParameters > 0) pdiv.removeChild(noParamLabel);
+
+    let label = document.createElement("label");
+    let text = document.createElement("input");
+    buttonContainer.appendChild(label);
+    buttonContainer.appendChild(text);
+
+    label.setAttribute("name", param.name);
+    label.setAttribute("for", param.name);
+    label.setAttribute("class", "param-label");
+    label.textContent = `${param.name}: `;
+
+}
+
 function makeSliders(device) {
     let pdiv = document.getElementById("rnbo-parameter-sliders");
     let noParamLabel = document.getElementById("no-param-label");
