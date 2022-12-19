@@ -77,6 +77,8 @@ async function setup() {
     // (Optional) Automatically create sliders for the device parameters
     makeSliders(device);
 
+    makeButton(device);
+
     // (Optional) Create a form to send messages to RNBO inputs
     makeInportForm(device);
 
