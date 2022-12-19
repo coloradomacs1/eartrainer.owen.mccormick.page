@@ -131,6 +131,8 @@ function makeButton(device) {
     label.setAttribute("class", "param-label");
     label.textContent = `${param.name}: `;
 
+    pdiv.appendChild(buttonContainer);
+
 }
 
 function makeSliders(device) {
