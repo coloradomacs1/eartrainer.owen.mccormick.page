@@ -126,7 +126,7 @@
         "debug": false,
         "saveable": true,
         "transmittable": true,
-        "visible": false,
+        "visible": true,
         "signalIndex": null,
         "ioType": "IOTypeUndefined",
         "serialId": "slider_s03"
@@ -178,7 +178,7 @@
         "debug": false,
         "saveable": true,
         "transmittable": true,
-        "visible": false,
+        "visible": true,
         "signalIndex": null,
         "ioType": "IOTypeUndefined",
         "serialId": "slider_s02"
