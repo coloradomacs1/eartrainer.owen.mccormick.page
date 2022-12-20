@@ -96,7 +96,7 @@
         "order": 0,
         "displayorder": "-",
         "sendinit": 0,
-        "initialized": false,
+        "initialized": true,
         "debug": false,
         "saveable": true,
         "transmittable": true,
