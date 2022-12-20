@@ -123,6 +123,11 @@ function loadRNBOScript(version) {
     });
 }
 
+console.log (numberobj_a1_s02)
+console.log (numberobj_a1_s01)
+console.log (numberobj_a1_s03)
+console.log (numberobj_a1_s04)
+
 
 function makeSliders(device) {
     let pdiv = document.getElementById("rnbo-parameter-sliders");
