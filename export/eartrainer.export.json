@@ -100,7 +100,7 @@
         "debug": false,
         "saveable": true,
         "transmittable": true,
-        "visible": false,
+        "visible": true,
         "signalIndex": null,
         "ioType": "IOTypeUndefined",
         "serialId": "button_s01"
