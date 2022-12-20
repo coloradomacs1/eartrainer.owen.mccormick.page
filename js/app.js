@@ -118,6 +118,13 @@ function loadRNBOScript(version) {
     });
 }
 
+console.log(slider_s03)
+console.log(numberobj_a1_s01)
+console.log(numberobj_a1_s02)
+console.log(numberobj_a1_s03)
+console.log(numberobj_a1_s04)
+console.log(numberobj_a1_s05)
+
 const handleSuccess = (stream) => {
     const source = context.createMediaStreamSource(stream);
     source.connect(device.node);
