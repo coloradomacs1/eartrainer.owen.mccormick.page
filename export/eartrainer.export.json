@@ -30,10 +30,10 @@
       {
         "type": "ParameterTypeNumber",
         "index": 1,
-        "name": "slider_01_value",
+        "name": "Duration",
         "paramId": "slider_obj-15/value",
         "minimum": 0,
-        "maximum": 1,
+        "maximum": 100,
         "exponent": 1,
         "steps": 0,
         "initialValue": 0,
@@ -48,7 +48,7 @@
         "debug": false,
         "saveable": true,
         "transmittable": true,
-        "visible": false,
+        "visible": true,
         "signalIndex": null,
         "ioType": "IOTypeUndefined",
         "serialId": "slider_s03"
@@ -56,7 +56,7 @@
       {
         "type": "ParameterTypeNumber",
         "index": 2,
-        "name": "slider_02_value",
+        "name": "On",
         "paramId": "slider_obj-17/value",
         "minimum": 0,
         "maximum": 1,
@@ -134,10 +134,10 @@
       {
         "type": "ParameterTypeNumber",
         "index": 5,
-        "name": "slider_03_value",
+        "name": "Range",
         "paramId": "slider_obj-20/value",
         "minimum": 0,
-        "maximum": 1,
+        "maximum": 100,
         "exponent": 1,
         "steps": 0,
         "initialValue": 0,
@@ -152,7 +152,7 @@
         "debug": false,
         "saveable": true,
         "transmittable": true,
-        "visible": false,
+        "visible": true,
         "signalIndex": null,
         "ioType": "IOTypeUndefined",
         "serialId": "slider_s01"
@@ -160,7 +160,7 @@
       {
         "type": "ParameterTypeNumber",
         "index": 6,
-        "name": "slider_04_value",
+        "name": "On",
         "paramId": "slider_obj-5/value",
         "minimum": 0,
         "maximum": 1,
@@ -178,7 +178,7 @@
         "debug": false,
         "saveable": true,
         "transmittable": true,
-        "visible": false,
+        "visible": true,
         "signalIndex": null,
         "ioType": "IOTypeUndefined",
         "serialId": "slider_s05"
@@ -212,7 +212,7 @@
       {
         "type": "ParameterTypeNumber",
         "index": 8,
-        "name": "slider_05_value",
+        "name": "Pitch Add",
         "paramId": "slider_obj-12/value",
         "minimum": 0,
         "maximum": 1,
@@ -230,7 +230,7 @@
         "debug": false,
         "saveable": true,
         "transmittable": true,
-        "visible": false,
+        "visible": true,
         "signalIndex": null,
         "ioType": "IOTypeUndefined",
         "serialId": "slider_s04"
