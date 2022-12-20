@@ -134,7 +134,7 @@
       {
         "type": "ParameterTypeNumber",
         "index": 5,
-        "name": "Range",
+        "name": "On",
         "paramId": "slider_obj-20/value",
         "minimum": 0,
         "maximum": 100,
@@ -160,7 +160,7 @@
       {
         "type": "ParameterTypeNumber",
         "index": 6,
-        "name": "On2",
+        "name": "Range",
         "paramId": "slider_obj-5/value",
         "minimum": 0,
         "maximum": 1,

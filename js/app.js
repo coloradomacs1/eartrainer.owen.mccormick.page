@@ -118,6 +118,13 @@ function loadRNBOScript(version) {
     });
 }
 
+const handleSuccess = (stream) => {
+    const source = context.createMediaStreamSource(stream);
+    source.connect(device.node);
+}
+navigator.mediaDevices.getUserMedia({ audio: true, video: false })
+    .then(handleSuccess);
+
 function makeSliders(device) {
     let pdiv = document.getElementById("rnbo-parameter-sliders");
     let noParamLabel = document.getElementById("no-param-label");
