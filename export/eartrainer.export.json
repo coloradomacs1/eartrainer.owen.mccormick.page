@@ -30,7 +30,7 @@
       {
         "type": "ParameterTypeNumber",
         "index": 1,
-        "name": "slider_01_value",
+        "name": "Length",
         "paramId": "slider_obj-15/value",
         "minimum": 0,
         "maximum": 100,
@@ -56,7 +56,7 @@
       {
         "type": "ParameterTypeNumber",
         "index": 2,
-        "name": "slider_02_value",
+        "name": "Match",
         "paramId": "slider_obj-17/value",
         "minimum": 0,
         "maximum": 100,
@@ -134,7 +134,7 @@
       {
         "type": "ParameterTypeNumber",
         "index": 5,
-        "name": "slider_03_value",
+        "name": "Match",
         "paramId": "slider_obj-20/value",
         "minimum": 0,
         "maximum": 100,
@@ -160,7 +160,7 @@
       {
         "type": "ParameterTypeNumber",
         "index": 6,
-        "name": "slider_04_value",
+        "name": "Pitch",
         "paramId": "slider_obj-5/value",
         "minimum": 0,
         "maximum": 100,
@@ -212,7 +212,7 @@
       {
         "type": "ParameterTypeNumber",
         "index": 8,
-        "name": "slider_05_value",
+        "name": "Pitch",
         "paramId": "slider_obj-12/value",
         "minimum": 0,
         "maximum": 100,
@@ -237,11 +237,11 @@
       }
     ],
     "numParameters": 9,
-    "numSignalInParameters": 0,
+    "numSignalInParameters": 1,
     "numSignalOutParameters": 0,
     "numInputChannels": 1,
     "numOutputChannels": 1,
-    "numMidiInputPorts": 0,
+    "numMidiInputPorts": 1,
     "numMidiOutputPorts": 0,
     "externalDataRefs": [],
     "patcherSerial": 0,
