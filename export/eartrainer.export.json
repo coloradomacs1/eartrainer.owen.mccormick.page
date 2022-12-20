@@ -186,7 +186,7 @@
       {
         "type": "ParameterTypeNumber",
         "index": 7,
-        "name": "slider_04_value",
+        "name": "Pitch Add",
         "paramId": "Pitch/value",
         "minimum": 0,
         "maximum": 100,
@@ -215,7 +215,7 @@
         "name": "Gain",
         "paramId": "Gain/value",
         "minimum": 0,
-        "maximum": 1,
+        "maximum": 100,
         "exponent": 1,
         "steps": 0,
         "initialValue": 86,
