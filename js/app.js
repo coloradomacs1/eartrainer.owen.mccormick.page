@@ -77,8 +77,6 @@ async function setup() {
     // (Optional) Automatically create sliders for the device parameters
     makeSliders(device);
 
-    makeButton(device);
-
     // (Optional) Create a form to send messages to RNBO inputs
     makeInportForm(device);
 
@@ -118,34 +116,6 @@ function loadRNBOScript(version) {
     });
 }
 
-function makeButton(device) {
-    let pdiv = document.getElementById("rnbo-parameter-button");
-    let noParamLabel = document.getElementById("no-param-label");
-    if (noParamLabel && device.numParameters > 0) pdiv.removeChild(noParamLabel);
-
-    let label = document.createElement("label");
-    let slider = document.createElement("input");
-    let text = document.createElement("input");
-    let buttonContainer = document.createElement("div");
-    buttonContainer.appendChild(label);
-    buttonContainer.appendChild(slider);
-    buttonContainer.appendChild(text);
-
-    // Add a name for the label
-    label.setAttribute("name", param.name);
-    label.setAttribute("for", param.name);
-    label.setAttribute("class", "param-label");
-    label.textContent = `${param.name}: `;
-
-    // Make each slider reflect its parameter
-    slider.setAttribute("type", "range");
-    slider.setAttribute("class", "param-slider");
-    slider.setAttribute("id", param.id);
-    slider.setAttribute("name", param.name);
-
-    text.setAttribute("value", param.value.toFixed(1));
-    text.setAttribute("type", "text");
-}
 
 function makeSliders(device) {
     let pdiv = document.getElementById("rnbo-parameter-sliders");
