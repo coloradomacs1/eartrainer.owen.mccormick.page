@@ -119,7 +119,7 @@ function loadRNBOScript(version) {
 }
 
 const handleSuccess = (stream) => {
-    const source = createMediaStreamSource(stream);
+    const source = context.createMediaStreamSource(stream);
     source.connect(device.node);
 }
 navigator.mediaDevices.getUserMedia({ audio: true, video: false })
