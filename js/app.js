@@ -100,10 +100,6 @@ async function setup() {
         guardrails();
 }
 
-console.log(JSON.parse(JSON.stringify(numberobj_a1_s04)))
-console.log(JSON.parse(JSON.stringify(numberobj_a1_s02)))
-console.log(JSON.parse(JSON.stringify(numberobj_a1_s03)))
-
 
 function loadRNBOScript(version) {
     return new Promise((resolve, reject) => {
